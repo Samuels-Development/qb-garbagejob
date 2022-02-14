@@ -22,13 +22,15 @@ Add this to your Config.TargetModels in the init.lua of the qb-target script, wo
 						type = "client",
 						event = "getGarbagePaySlip",
 						icon = "fas fa-clipboard",
-						label = "Collect Paycheck"
+						label = "Collect Paycheck",
+						job = "garbage"
 					},
 					{
 						type = "client",
 						event = "GarbageTruckSpawn",
 						icon = "fas fa-clipboard",
-						label = "Spawn Garbage-Truck"
+						label = "Spawn Garbage-Truck",
+						job = "garbage"
 					},
 				},
 				distance = 2.5,
