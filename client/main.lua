@@ -382,7 +382,7 @@ RegisterNetEvent('GarbageTruckSpawn', function()
                 garbageVehicle = vehicle
                 SetVehicleNumberPlateText(veh, "GARB"..tostring(math.random(1000, 9999)))
                 SetEntityHeading(vehicle, coords.w)
-                exports['lj-fuel']:SetFuel(vehicle, 100.0)
+                exports['LegacyFuel']:SetFuel(vehicle, 100.0)
                 SetEntityAsMissionEntity(vehicle, true, true)
                 TriggerEvent("vehiclekeys:client:SetOwner", QBCore.Functions.GetPlate(vehicle))
                 currentStop = firstStop
