@@ -1,6 +1,8 @@
 # Garbage Job V2 For QB-Core
 
-Repost of the official qb-garbagejob, with QB-Target Interaction
+Repost of the official qb-garbagejob, with QB-Target Interaction!
+
+You need to add your own Ped!
 
 # Rework Update
 - Job now pays per bag delivered on a configured scale.
